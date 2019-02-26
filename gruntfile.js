@@ -17,6 +17,5 @@ module.exports = function(grunt) {
 	});
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.loadNpmTasks('grunt-contrib-clean');
-	grunt.registerTask('default',['sass', 'clean', 'watch']);
+	grunt.registerTask('default',['sass', 'watch']);
 }
